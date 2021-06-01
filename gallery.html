@@ -6,19 +6,33 @@
         <meta name="author" content="محمد مخ">
         <title>الموقع الشخصي</title>
         <link rel="stylesheet" href="css/all.min.css">
-        <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/style.css">
     </head>
     <body>
         <header>
             <div class="container">
-                <div id="brqanding">
-                    <h1><i class="fas fa-user-circle"></i>صفحة <span class="highlight">اسم الطالب</span></h1>
+                <div id="branding">
+                    <h1>
+                        <i class="fas fa-user-circle"></i>
+                        صفحة 
+                        <span class="highlight">
+                            اسم الطالب
+                        </span>
+                    </h1>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="index.html">الرئيسية</a></li>
-                        <li class="current"><a href="gallery.html">معرض الأعمال</a></li>
+                        <li>
+                            <a href="index.html">
+                                الرئيسية
+                            </a>
+                        </li>
+                        <li class="current">
+                            <a href="gallery.html">
+                                معرض الأعمال
+                            </a>
+                        </li>
                     </ul>
                 </nav>
             </div>
@@ -27,7 +41,7 @@
             <div id="slider" class="container">
                 <div id="wrapper">
                     <div class="content">
-                        <img src="img/1.PNG">
+                        <img src="img/1.PNG" class="active">
                     </div>
                     <div class="content">
                         <img src="img/2.PNG">
@@ -41,7 +55,7 @@
                 </div>
                 <div id="navLinks">
                     <ul>
-                        <li class="itemLinks" data-pos="0"></li>
+                        <li class="itemLinks active" data-pos="0"></li>
                         <li class="itemLinks" data-pos="1"></li>
                         <li class="itemLinks" data-pos="2"></li>
                         <li class="itemLinks" data-pos="3"></li>
@@ -49,7 +63,13 @@
                 </div>
             </div>
         </section>
-</body>
+        <section id="footer">
+            <p>
+                الصفحة الشخصية للإسم المسجل &copy;
+                <span id=currentYear></span>
+            </p>
+        </section>
+    </body>
 <script src="js/jquery.js"></script>
 <script src="js/slider.js"></script>
 </html>

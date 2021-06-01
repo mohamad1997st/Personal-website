@@ -140,14 +140,7 @@ header a:hover
     padding: 10px;
 }
 
-footer
-{
-    padding: 20px;
-    margin-top: 20px;
-    color: #ffffff;
-    background-color: #32a0c2;
-    text-align: center;
-}
+ 
 
 @media(max-width:  768px)
 {

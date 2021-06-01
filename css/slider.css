@@ -64,12 +64,21 @@
     background-color:#ff0;
 }
 
-#navLinks ul li:active
+#navLinks ul li.active
 {
-    background-color:#333;
+    background-color: #333;
 }
 
 #navLinks ul li.active:hover
 {
-    background-color:#484848;
+    background-color:#ff0;
+}
+
+#footer
+{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #32a0c2;
+    text-align: center;
 }
